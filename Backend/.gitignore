@@ -1,0 +1,17 @@
+# Node modules (don't push this)
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Optional build or dist folders
+dist/
+build/
+
+# Coverage reports
+coverage/

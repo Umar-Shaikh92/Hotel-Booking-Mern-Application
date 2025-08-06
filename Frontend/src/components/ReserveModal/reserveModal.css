@@ -1,0 +1,127 @@
+.reserveModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.reserveModalContainer {
+  background-color: #fff;
+  width: 600px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow-y: auto;
+  padding: 30px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 0.3s ease;
+}
+
+.rClose {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 20px;
+  color: #888;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.rClose:hover {
+  color: #e74c3c;
+}
+
+.reserveModalContainer span {
+  font-size: 22px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.rItem {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.rItemInfo {
+  margin-bottom: 10px;
+}
+
+.rTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.rDesc {
+  font-size: 14px;
+  color: #555;
+  margin: 6px 0;
+}
+
+.rMax,
+.rPrice {
+  font-size: 14px;
+  color: #666;
+}
+
+.room {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.room p {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+}
+.room label {
+  font-size: 14px;
+  color: #444;
+}
+
+.room input[type="checkbox"] {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.reserveModalContainer button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #0071c2;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.reserveModalContainer button:hover {
+  background-color: #005fa3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

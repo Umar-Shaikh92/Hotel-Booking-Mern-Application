@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 1050px) {
+  .headerSearch {
+    width: 100%;
+    max-width: 100% !important;
+    position: relative !important;
+    margin-block: 30px;
+    flex-direction: column;
+    height: auto !important;
+    padding: 0 !important;
+  }
+  .headerContainer {
+    margin: 0 !important;
+    box-sizing: border-box;
+  }
+  .headerSearchItem {
+    height: 40px;
+    width: 100%;
+    border-bottom: 3px solid #febb02;
+    gap: 20px;
+  }
+  .headerSearchInput,
+  .headerSearchText {
+    width: 100%;
+  }
+  .date {
+    top: 85px !important;
+  }
+  .options {
+    top: 128px !important;
+  }
+  .headerSearchItem > svg {
+    padding-left: 10px;
+  }
+
+  .headerSearch .headerBtn {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .fLists {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+  .navContainer {
+    max-width: 100% !important;
+    padding: 26px;
+  }
+  .homeContainer {
+    padding-inline: 24px;
+  }
+  .hotelContainer {
+    padding-inline: 24px;
+  }
+
+  .featured {
+    max-width: 100% !important;
+  }
+  .headerContainer {
+    max-width: 100% !important;
+    padding: 26px;
+  }
+  .pList,
+  .fp {
+    overflow-x: auto;
+    max-width: 100% !important;
+  }
+  .homeTitle {
+    width: 100% !important;
+  }
+  .featuredTitles > h1 {
+    font-size: 26px;
+  }
+  .featuredTitles > h2 {
+    font-size: 20px;
+  }
+  .footer {
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .pList {
+    overflow-x: auto;
+  }
+  .pListItem {
+    flex: 0 0 auto !important;
+    width: 185px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .headerList {
+    gap: 20px !important;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .headerListItem {
+    font-size: 13px !important;
+    min-width: max-content;
+  }
+  .featured {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width:550px) {
+  .mailInputContainer {
+    display: flex;
+    font-size: 12px;
+  }
+  .mailInputContainer>input {
+  width: 200px !important;
+  height: 25px !important;
+  }
+  .mailInputContainer>button {
+    padding: 5px 12px !important;
+    height: unset !important;
+  }
+
+.searchItem {
+  flex-direction: column;
+}
+.siImg {
+  width: 100% !important;
+}
+.siDesc {
+  gap: 5px !important;
+}
+.sliderImg {
+    width: 100% !important;
+    height: 90vh !important;
+}
+.hotelDetails {
+  flex-direction: column;
+}
+.hotelDistance, .hotelPriceHighlight {
+  font-size: 14px;
+}
+.hotelPriceHighlight {
+  padding-bottom: 48px;
+}
+.hotelImages {
+  flex-direction: column;
+}
+.hotelImgWrapper {
+    width: 100% !important;
+}
+.bookNow {
+  top: 155px !important;
+  width: 100%;
+}
+}
+
+
+@media only screen and (max-width: 425px) {
+  .navBtn {
+    display: none;
+  }
+  .mobileNavBtn {
+    display: block !important;
+  }
+  .regiterHeaderBtn {
+    display: none;
+  }
+  .homeTitle {
+    text-align: center;
+  }
+  .mail {
+    text-align: center;
+  }
+  .mailDesc {
+    font-size: 12px;
+  }
+  .mailTitle {
+font-size: 20px;
+  }
+  .mailInputContainer {
+flex-direction: column;
+gap: 10px;
+  }
+    .mailInputContainer>input {
+margin: 0 !important;
+    }
+      .mailInputContainer>button {
+padding: 9px 12px !important;
+      }
+      .fLists {
+        grid-template-columns: 1fr !important;
+    }
+    .fHeading {
+      padding-bottom: 0 !important;
+      padding-top: 15px;
+    }
+    .fListItem {
+      line-height: unset !important;
+    }
+    .logo {
+      font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+  .fp {
+    overflow-x: auto;
+  }
+  .fpItem {
+    flex: 0 0 auto !important;
+    width: 229px;
+    margin-block: 5px;
+  }
+  .listContainer {
+    padding-inline: 24px;
+  }
+}
